@@ -1,0 +1,32 @@
+{
+  "name": "coffee-nuxtjs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.2.0",
+    "@nuxtjs/i18n": "^8.0.0",
+    "@vueuse/core": "^10.7.0",
+    "nuxt": "^3.9.0",
+    "swiper": "^11.2.10",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^3.0.2",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@types/node": "^20.10.0",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "sass": "^1.96.0",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.3.3"
+  }
+}

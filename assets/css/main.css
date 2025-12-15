@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-cafe-brown-dark bg-cafe-beige;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-6xl mx-auto px-5;
+  }
+  
+  .page-content {
+    @apply py-8 min-h-[calc(100vh-80px)];
+  }
+  
+  .page-content-no-top {
+    @apply pt-0;
+  }
+}
+
