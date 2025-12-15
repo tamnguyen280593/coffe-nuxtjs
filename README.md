@@ -1,5 +1,7 @@
 ## VinCoffe – Nuxt 3 Coffee Shop Website
 
+![Full Screen Preview](./full-screen.png)
+
 A coffee shop showcase website built with **Nuxt 3 + TypeScript + Tailwind CSS**.
 
 > **Note:** This project uses fake/mock data as a fallback when API calls fail or return empty data. If a real API is available, the project will work normally with the real data.
