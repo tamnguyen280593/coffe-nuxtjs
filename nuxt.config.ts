@@ -22,13 +22,14 @@ export default defineNuxtConfig({
       instagramUrl: process.env.INSTAGRAM_URL || '',
       twitterUrl: process.env.TWITTER_URL || '',
       youtubeUrl: process.env.YOUTUBE_URL || '',
-      apiBase: process.env.API_BASE_URL || '/api' // Default to /api for server routes
+      mapEmbedUrl: process.env.MAP_EMBED_URL || '',
+      apiBase: process.env.API_BASE_URL || '/api'
     }
   },
 
   app: {
     head: {
-      title: process.env.APP_NAME || 'My App',
+      title: process.env.APP_NAME || '',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' }

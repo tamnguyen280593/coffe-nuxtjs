@@ -39,13 +39,13 @@ export const useTestimonials = () => {
         immediate: false,
       })
       
-      await execute() // Gọi API
+      await execute()
       
       if (data.value && Array.isArray(data.value) && data.value.length) {
         itemsTestimonials.value = data.value
-      } else {
-        itemsTestimonials.value = fallbackTestimonials
+        return
       }
+      itemsTestimonials.value = fallbackTestimonials
     } catch (err) {
       itemsTestimonials.value = fallbackTestimonials
     }

@@ -14,11 +14,7 @@
   }
   
   .page-content {
-    @apply py-8 min-h-[calc(100vh-80px)];
-  }
-  
-  .page-content-no-top {
-    @apply pt-0;
+    @apply min-h-[calc(100vh-80px)];
   }
 }
 

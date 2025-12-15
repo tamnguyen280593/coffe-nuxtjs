@@ -47,15 +47,16 @@ export const useMenu = () => {
         immediate: false,
       })
       
-      await execute() // Gọi API
+      await execute()
       
       if (data.value && Array.isArray(data.value) && data.value.length) {
         itemsMenu.value = data.value
-      } else {
-        itemsMenu.value = fallbackMenu
+        return
       }
+      itemsMenu.value = fallbackMenu
     } catch (err) {
       itemsMenu.value = fallbackMenu
+      return
     }
   }
 

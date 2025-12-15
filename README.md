@@ -1,48 +1,50 @@
 ## VinCoffe – Nuxt 3 Coffee Shop Website
 
-Một website giới thiệu quán cà phê được xây dựng bằng **Nuxt 3 + TypeScript + Tailwind CSS**.
+A coffee shop showcase website built with **Nuxt 3 + TypeScript + Tailwind CSS**.
 
-### Yêu cầu môi trường
+> **Note:** This project uses fake/mock data as a fallback when API calls fail or return empty data. If a real API is available, the project will work normally with the real data.
+
+### Environment Requirements
 
 - Node.js **>= 18**
 - Yarn **1.x** (classic)
 
-Kiểm tra phiên bản:
+Check versions:
 
 ```bash
 node -v
 yarn -v
 ```
 
-### Cài đặt dependencies
+### Install dependencies
 
 ```bash
 yarn install
 ```
 
-### Chạy dự án ở môi trường phát triển
+### Run the project in development mode
 
 ```bash
 yarn dev
 ```
 
-Sau khi chạy, mở trình duyệt tại:
+After running, open your browser at:
 
 - `http://localhost:3000`
 
-### Build sản phẩm (production build)
+### Build for production
 
 ```bash
 yarn build
 ```
 
-### Generate static site (dùng để deploy GitHub Pages, v.v.)
+### Generate static site (for deploying to GitHub Pages, etc.)
 
 ```bash
 yarn generate
 ```
 
-Files sẽ được generate vào thư mục:
+Files will be generated in the directory:
 
 - `.output/public`
 
